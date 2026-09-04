@@ -1,0 +1,6 @@
+{
+  "name": "CipherFlow version 1.0",
+  "description": "Enterprise-grade memory-hard cryptographic suite with Argon2 KDF, AES-256-GCM zero-leak file and multi-format vault container encryption (.cf), in-memory 4-grid image gallery, system app sharing, presentation deck, media streaming, and ephemeral RAM purge up to 5 hours.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

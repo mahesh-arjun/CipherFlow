@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" fill="none">
+  <defs>
+    <!-- Navy Shield & Monogram Gradients -->
+    <linearGradient id="cf-navy-main" x1="200" y1="50" x2="800" y2="750" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0B1A38" />
+      <stop offset="50%" stopColor="#0E2246" />
+      <stop offset="100%" stopColor="#08142C" />
+    </linearGradient>
+
+    <!-- Gold Gradients for Shield & F Monogram -->
+    <linearGradient id="cf-gold-main" x1="250" y1="80" x2="750" y2="680" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#E2B755" />
+      <stop offset="30%" stopColor="#CCA43B" />
+      <stop offset="70%" stopColor="#E5BE60" />
+      <stop offset="100%" stopColor="#B38622" />
+    </linearGradient>
+
+    <linearGradient id="cf-gold-light" x1="450" y1="200" x2="650" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#F5D77F" />
+      <stop offset="50%" stopColor="#D4A83B" />
+      <stop offset="100%" stopColor="#BA8820" />
+    </linearGradient>
+
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#050C1A" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- 1. SHIELD EMBLEM                           -->
+  <!-- ========================================== -->
+  <g id="shield-group" filter="url(#subtle-shadow)">
+    <!-- Outer Navy Shield Border -->
+    <path
+      d="M 500 60
+         C 530 63 650 90 735 125
+         C 755 133 760 148 760 170
+         C 758 350 725 490 500 715
+         C 275 490 242 350 240 170
+         C 240 148 245 133 265 125
+         C 350 90 470 63 500 60 Z"
+      stroke="url(#cf-navy-main)"
+      stroke-width="32"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Inner Gold Shield Border -->
+    <path
+      d="M 500 95
+         C 525 98 630 120 705 152
+         C 722 159 726 172 726 190
+         C 724 340 695 460 500 665
+         C 305 460 276 340 274 190
+         C 274 172 278 159 295 152
+         C 370 120 475 98 500 95 Z"
+      stroke="url(#cf-gold-main)"
+      stroke-width="15"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 2. GEOMETRIC 'C' (Dark Navy)               -->
+  <!-- ========================================== -->
+  <path
+    d="M 645 200
+       L 455 200
+       L 365 290
+       L 365 410
+       L 455 500
+       L 645 500
+       L 590 445
+       L 480 445
+       L 420 385
+       L 420 315
+       L 480 255
+       L 590 255
+       Z"
+    fill="url(#cf-navy-main)"
+  />
+
+  <!-- ========================================== -->
+  <!-- 3. DYNAMIC 'F' (Two Forward Golden Chevrons)-->
+  <!-- ========================================== -->
+  <!-- Upper Golden Bar of 'F' -->
+  <path
+    d="M 465 425
+       L 522 280
+       L 655 280
+       L 600 345
+       L 535 345
+       L 490 445
+       Z"
+    fill="url(#cf-gold-light)"
+  />
+
+  <!-- Lower Golden Bar of 'F' -->
+  <path
+    d="M 488 435
+       L 535 348
+       L 622 348
+       L 578 412
+       L 522 412
+       L 508 445
+       Z"
+    fill="url(#cf-gold-main)"
+  />
+
+  <!-- ========================================== -->
+  <!-- 4. CIRCUIT BOARD TRACES (Flanking)         -->
+  <!-- ========================================== -->
+  <!-- Left Side Traces -->
+  <!-- Outer Gold Trace -->
+  <circle cx="318" cy="455" r="8" fill="url(#cf-gold-main)" />
+  <path
+    d="M 318 463
+       L 318 510
+       L 358 565
+       L 358 605
+       L 380 635"
+    stroke="url(#cf-gold-main)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Inner Navy Trace -->
+  <circle cx="395" cy="545" r="7.5" fill="url(#cf-navy-main)" />
+  <path
+    d="M 395 553
+       L 395 585
+       L 435 635
+       L 448 635"
+    stroke="url(#cf-navy-main)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Right Side Traces (Symmetrical) -->
+  <!-- Outer Gold Trace -->
+  <circle cx="682" cy="455" r="8" fill="url(#cf-gold-main)" />
+  <path
+    d="M 682 463
+       L 682 510
+       L 642 565
+       L 642 605
+       L 620 635"
+    stroke="url(#cf-gold-main)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Inner Navy Trace -->
+  <circle cx="605" cy="545" r="7.5" fill="url(#cf-navy-main)" />
+  <path
+    d="M 605 553
+       L 605 585
+       L 565 635
+       L 552 635"
+    stroke="url(#cf-navy-main)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- ========================================== -->
+  <!-- 5. PADLOCK AT BOTTOM APEX                  -->
+  <!-- ========================================== -->
+  <!-- Padlock Shackle -->
+  <path
+    d="M 478 590
+       L 478 565
+       C 478 550 488 540 500 540
+       C 512 540 522 550 522 565
+       L 522 590"
+    stroke="url(#cf-navy-main)"
+    stroke-width="10"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Padlock Body -->
+  <rect
+    x="465"
+    y="588"
+    width="70"
+    height="58"
+    rx="10"
+    fill="url(#cf-navy-main)"
+  />
+
+  <!-- Keyhole in Padlock Body -->
+  <circle cx="500" cy="610" r="5.5" fill="#FFFFFF" />
+  <polygon points="496,610 504,610 502.5,626 497.5,626" fill="#FFFFFF" />
+
+  <!-- ========================================== -->
+  <!-- 6. TYPOGRAPHY 'CIPHERFLOW'                 -->
+  <!-- ========================================== -->
+  <g id="wordmark" transform="translate(500, 845)">
+    <!-- CIPHER in Navy -->
+    <text
+      x="-370"
+      y="0"
+      font-family="'Plus Jakarta Sans', 'Outfit', 'Space Grotesk', system-ui, sans-serif"
+      font-size="68"
+      font-weight="900"
+      letter-spacing="0.16em"
+      fill="url(#cf-navy-main)"
+    >CIPHER</text>
+
+    <!-- FLOW in Gold -->
+    <text
+      x="55"
+      y="0"
+      font-family="'Plus Jakarta Sans', 'Outfit', 'Space Grotesk', system-ui, sans-serif"
+      font-size="68"
+      font-weight="900"
+      letter-spacing="0.16em"
+      fill="url(#cf-gold-main)"
+    >FLOW</text>
+  </g>
+</svg>

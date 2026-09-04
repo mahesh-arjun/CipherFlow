@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  
+
+  <!-- 1. SHIELD EMBLEM -->
+  <g id="shield">
+    <!-- Outer Navy Shield Contour -->
+    <path
+      d="M 500 68
+         C 536 72 654 96 748 132
+         C 766 140 774 156 774 178
+         C 770 388 718 544 500 732
+         C 282 544 230 388 226 178
+         C 226 156 234 140 252 132
+         C 346 96 464 72 500 68 Z"
+      stroke="#07152B"
+      stroke-width="38"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      fill="none"
+    />
+
+    <!-- Inner Gold Shield Contour -->
+    <path
+      d="M 500 106
+         C 528 109 630 131 712 163
+         C 728 170 736 184 736 202
+         C 732 372 688 502 500 676
+         C 312 502 268 372 264 202
+         C 264 184 272 170 288 163
+         C 370 131 472 109 500 106 Z"
+      stroke="#C39A2B"
+      stroke-width="16"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      fill="none"
+    />
+  </g>
+
+  <!-- 2. GEOMETRIC HEXAGONAL 'C' MONOGRAM -->
+  <g id="c-monogram">
+    <path
+      d="M 648 188
+         L 444 188
+         L 360 272
+         L 360 436
+         L 444 520
+         L 648 520
+         L 590 452
+         L 472 452
+         L 426 406
+         L 426 302
+         L 472 256
+         L 590 256
+         Z"
+      fill="#07152B"
+    />
+  </g>
+
+  <!-- 3. STYLIZED 'F' MONOGRAM (Golden Chevron Wings) -->
+  <g id="f-monogram">
+    <!-- Upper Arm of F -->
+    <polygon
+      points="466,450 538,272 660,272 596,348 532,348 488,450"
+      fill="#C39A2B"
+    />
+
+    <!-- Lower Arm of F -->
+    <polygon
+      points="488,450 540,348 628,348 580,416 522,416 508,450"
+      fill="#C39A2B"
+    />
+  </g>
+
+  <!-- 4. CIRCUIT BOARD TRACES & CONNECTION NODES -->
+  <g id="circuits">
+    <!-- LEFT SIDE TRACES -->
+    <!-- Outer Navy Trace with node -->
+    <circle cx="318" cy="434" r="8" fill="#07152B" />
+    <path
+      d="M 318 442
+         L 318 472
+         L 360 528
+         L 360 568
+         L 398 616
+         L 416 616"
+      stroke="#07152B"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Inner Gold Trace with node -->
+    <circle cx="396" cy="534" r="7" fill="#C39A2B" />
+    <path
+      d="M 396 541
+         L 396 570
+         L 434 616
+         L 448 616"
+      stroke="#C39A2B"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- RIGHT SIDE TRACES (Symmetrical) -->
+    <!-- Outer Navy Trace with node -->
+    <circle cx="682" cy="434" r="8" fill="#07152B" />
+    <path
+      d="M 682 442
+         L 682 472
+         L 640 528
+         L 640 568
+         L 602 616
+         L 584 616"
+      stroke="#07152B"
+      stroke-width="6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+
+    <!-- Inner Gold Trace with node -->
+    <circle cx="604" cy="534" r="7" fill="#C39A2B" />
+    <path
+      d="M 604 541
+         L 604 570
+         L 566 616
+         L 552 616"
+      stroke="#C39A2B"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+
+  <!-- 5. PADLOCK IN LOWER CENTER -->
+  <g id="padlock">
+    <!-- Shackle -->
+    <path
+      d="M 478 596
+         L 478 574
+         C 478 556 488 546 500 546
+         C 512 546 522 556 522 574
+         L 522 596"
+      stroke="#07152B"
+      stroke-width="12"
+      stroke-linecap="round"
+      fill="none"
+    />
+
+    <!-- Padlock Body -->
+    <rect
+      x="465"
+      y="592"
+      width="70"
+      height="62"
+      rx="9"
+      fill="#07152B"
+    />
+
+    <!-- Keyhole -->
+    <circle cx="500" cy="616" r="5.5" fill="#FFFFFF" />
+    <polygon points="496,616 504,616 502.5,634 497.5,634" fill="#FFFFFF" />
+  </g>
+
+  <!-- 6. TYPOGRAPHY 'CIPHERFLOW' -->
+  <g id="typography" transform="translate(100, 825)">
+    <!-- C (Navy) -->
+    <path
+      d="M 70 0
+         L 28 0
+         C 12 0 0 13 0 30
+         C 0 47 12 60 28 60
+         L 70 60
+         C 75 60 78 57 78 52
+         C 78 47 75 44 70 44
+         L 32 44
+         C 24 44 16 38 16 30
+         C 16 22 24 16 32 16
+         L 70 16
+         C 75 16 78 13 78 8
+         C 78 3 75 0 70 0 Z"
+      fill="#07152B"
+    />
+
+    <!-- I (Navy) -->
+    <rect x="106" y="0" width="16" height="60" rx="8" fill="#07152B" />
+
+    <!-- P (Navy) -->
+    <path
+      d="M 150 0
+         L 182 0
+         C 198 0 210 10 210 24
+         C 210 38 198 48 182 48
+         L 166 48
+         L 166 52
+         C 166 57 162 60 158 60
+         C 154 60 150 57 150 52
+         Z
+         M 166 16
+         L 180 16
+         C 188 16 194 20 194 24
+         C 194 28 188 32 180 32
+         L 166 32
+         Z"
+      fill="#07152B"
+    />
+
+    <!-- H (Navy) -->
+    <path
+      d="M 236 0
+         C 241 0 244 3 244 8
+         L 244 22
+         L 278 22
+         L 278 8
+         C 278 3 281 0 286 0
+         C 291 0 294 3 294 8
+         L 294 52
+         C 294 57 291 60 286 60
+         C 281 60 278 57 278 52
+         L 278 38
+         L 244 38
+         L 244 52
+         C 244 57 241 60 236 60
+         C 231 60 228 57 228 52
+         L 228 8
+         C 228 3 231 0 236 0 Z"
+      fill="#07152B"
+    />
+
+    <!-- E (Navy) -->
+    <path
+      d="M 320 0
+         L 358 0
+         C 363 0 366 3 366 8
+         C 366 13 363 16 358 16
+         L 336 16
+         L 336 22
+         L 354 22
+         C 359 22 362 25 362 30
+         C 362 35 359 38 354 38
+         L 336 38
+         L 336 44
+         L 358 44
+         C 363 44 366 47 366 52
+         C 366 57 363 60 358 60
+         L 320 60
+         C 315 60 312 57 312 52
+         L 312 8
+         C 312 3 315 0 320 0 Z"
+      fill="#07152B"
+    />
+
+    <!-- R (Navy) -->
+    <path
+      d="M 392 0
+         L 424 0
+         C 439 0 450 9 450 22
+         C 450 32 443 40 433 43
+         L 448 54
+         C 451 57 451 60 447 60
+         C 443 60 440 58 436 55
+         L 420 44
+         L 408 44
+         L 408 52
+         C 408 57 405 60 400 60
+         C 395 60 392 57 392 52
+         Z
+         M 408 15
+         L 422 15
+         C 430 15 435 18 435 22
+         C 435 26 430 30 422 30
+         L 408 30
+         Z"
+      fill="#07152B"
+    />
+
+    <!-- F (Gold) -->
+    <path
+      d="M 480 0
+         L 522 0
+         C 527 0 530 3 530 8
+         C 530 13 527 16 522 16
+         L 496 16
+         L 496 22
+         L 518 22
+         C 523 22 526 25 526 30
+         C 526 35 523 38 518 38
+         L 496 38
+         L 496 52
+         C 496 57 493 60 488 60
+         C 483 60 480 57 480 52
+         Z"
+      fill="#C39A2B"
+    />
+
+    <!-- L (Gold) -->
+    <path
+      d="M 552 0
+         C 557 0 560 3 560 8
+         L 560 44
+         L 594 44
+         C 599 44 602 47 602 52
+         C 602 57 599 60 594 60
+         L 552 60
+         C 547 60 544 57 544 52
+         L 544 8
+         C 544 3 547 0 552 0 Z"
+      fill="#C39A2B"
+    />
+
+    <!-- O (Gold) -->
+    <path
+      d="M 646 0
+         L 676 0
+         C 696 0 710 13 710 30
+         C 710 47 696 60 676 60
+         L 646 60
+         C 626 60 612 47 612 30
+         C 612 13 626 0 646 0 Z
+         M 646 16
+         C 636 16 628 22 628 30
+         C 628 38 636 44 646 44
+         L 676 44
+         C 686 44 694 38 694 30
+         C 694 22 686 16 676 16
+         Z"
+      fill="#C39A2B"
+    />
+
+    <!-- W (Gold) -->
+    <path
+      d="M 735 0
+         C 740 0 743 3 744 7
+         L 758 43
+         L 772 10
+         C 774 5 777 3 781 3
+         C 785 3 788 5 790 10
+         L 804 43
+         L 818 7
+         C 819 3 822 0 827 0
+         C 832 0 836 4 834 10
+         L 815 54
+         C 813 58 809 60 805 60
+         C 801 60 798 58 796 54
+         L 781 20
+         L 766 54
+         C 764 58 761 60 757 60
+         C 753 60 749 58 747 54
+         L 728 10
+         C 726 4 730 0 735 0 Z"
+      fill="#C39A2B"
+    />
+  </g>
+</svg>
